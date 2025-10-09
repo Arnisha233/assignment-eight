@@ -30,7 +30,7 @@ const AppDetails = () => {
     let updatedList = [];
     if (existingList) {
       const isDuplicate = existingList.some((p) => p.id === product.id);
-      if (isDuplicate) return alert("sorry");
+      if (isDuplicate) return alert("you already added");
       updatedList = [...existingList, product];
     } else {
       updatedList.push(product);
@@ -60,6 +60,7 @@ const AppDetails = () => {
               <p className="text-[#001931] font-normal my-2">Downloads</p>
               <h3 className="text-[#001931] text-[30px] font-extrabold">
                 {downloads}
+                {downloadsUnit}
               </h3>
             </div>
             <div>

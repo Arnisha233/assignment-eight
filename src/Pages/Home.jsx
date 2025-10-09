@@ -3,6 +3,7 @@ import Banner from "../Components/Banner/Banner";
 import { Link } from "react-router";
 import ProductCard from "../Components/ProductCard";
 import useProducts from "../Hooks/useProducts";
+import LoadingSpineer from "../Components/LoadingSpineer";
 
 const Home = () => {
   const { products, loading, error } = useProducts();
@@ -17,11 +18,15 @@ const Home = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto w-full px-4 py-10 lg:px-12">
-        {featuredProducts.map((product) => (
-          <ProductCard key={product.id} product={product}></ProductCard>
-        ))}
-      </div>
+      {loading ? (
+        <LoadingSpineer></LoadingSpineer>
+      ) : (
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto w-full px-4 py-10 lg:px-12">
+          {featuredProducts.map((product) => (
+            <ProductCard key={product.id} product={product}></ProductCard>
+          ))}
+        </div>
+      )}
       <div className="flex justify-center items-center w-full  mb-16">
         <Link
           to="/apps"

@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import useProducts from "../Hooks/useProducts";
 import ProductCard from "../Components/ProductCard";
 import { Link } from "react-router";
-
+import appErrorImg from "../assets/App-Error.png";
 const Apps = () => {
-  const { products } = useProducts();
+  const { products, loading } = useProducts();
   const [search, setSearch] = useState("");
   const term = search.trim().toLocaleLowerCase();
   const searchProducts = term
@@ -53,11 +53,27 @@ const Apps = () => {
         </div>
       </div>
       {searchProducts.length === 0 ? (
-        <p className="text-center text-gray-500 mt-6 text-lg font-medium">
-          No App Found 😔
-        </p>
+        // <p className="text-center text-gray-500 mt-6 text-lg font-medium">
+        //   No App Found 😔
+        // </p>
+        <div className="flex flex-col items-center my-16">
+          <img src={appErrorImg} alt="" />
+          <h2 className="text-[#001931] text-5xl font-semibold mt-9">
+            OPPS!! APP NOT FOUND
+          </h2>
+          <p className="text-[#627382] text-[20px] font-normal mt-2">
+            The App you are requesting is not found on our system. please try
+            another apps
+          </p>
+          <Link
+            to="/"
+            className="py-3 px-4 bg-[#632EE3] rounded-[4px] text-[#FFFFFF] font-semibold my-4"
+          >
+            Go Back!
+          </Link>
+        </div>
       ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto w-full px-4 py-10 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-screen-xl mx-auto w-full px-4 py-10 lg:px-12">
           {searchProducts.map((product) => (
             <ProductCard key={product.id} product={product}></ProductCard>
           ))}

@@ -1,10 +1,10 @@
 [
   {
-    "image": "https://i.ibb.co.com/Lh8CPQKq/demo-app-1.webp",
+    "image": "https://i.ibb.co.com/TBpz96tV/0534c786c3fc9e491c2abee1211d8640.jpg",
     "title": "SnapEase",
     "companyName": "PixelForge Labs",
     "id": 1,
-    "description": "A fast and smart photo editing app designed to enhance your creativity with AI-powered tools.",
+    "description": "SnapEase is an advanced photo editing app designed to bring professional-level creativity to your fingertips. With AI-powered tools, you can remove backgrounds, enhance colors, and apply stunning filters in seconds. Create collages, add text and stickers, or adjust lighting and sharpness to make your photos truly stand out. Whether you are a casual user or an aspiring photographer, SnapEase offers intuitive controls and powerful editing features that simplify complex tasks and help you achieve high-quality results effortlessly.",
     "size": 42,
     "reviews": 12000,
     "ratingAvg": 4.6,
@@ -19,11 +19,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=2",
+    "image": "https://i.ibb.co.com/gMttMdMn/27a45c5eada728c0bc1f0d735ff1f9e5.jpg",
     "title": "FitTrack",
     "companyName": "MoveWell Technologies",
     "id": 2,
-    "description": "Track your workouts, monitor your health, and stay motivated with personalized fitness insights.",
+    "description": "FitTrack is your all-in-one fitness companion designed to help you achieve your health goals efficiently. Track workouts, monitor heart rate and calories burned, and receive personalized fitness insights that adapt to your progress. Set daily, weekly, or monthly goals and watch as FitTrack motivates you with reminders, progress charts, and achievement badges. Whether you are looking to build strength, lose weight, or improve overall wellness, FitTrack provides the guidance, analytics, and encouragement you need to stay on track and make lasting lifestyle changes.",
     "size": 55,
     "reviews": 8000,
     "ratingAvg": 4.4,
@@ -38,11 +38,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=3",
-    "title": "NoteHive",
+    "image": "https://i.ibb.co.com/Lh8CPQKq/demo-app-1.webp",
+    "title": "Foodly",
     "companyName": "MindNest Inc.",
     "id": 3,
-    "description": "Organize your thoughts and projects with AI-assisted notes that sync across all your devices.",
+    "description": "NoteHive is a versatile note-taking app designed to help you organize your thoughts, ideas, and projects with ease. Using AI-assisted suggestions, you can quickly structure your notes, create to-do lists, and set reminders for important tasks. Notes sync seamlessly across all devices, ensuring you have access anytime, anywhere. With powerful search capabilities, tags, and categories, NoteHive makes it easy to manage personal projects, academic notes, or professional documentation, boosting productivity and keeping your ideas well-organized.",
     "size": 33,
     "reviews": 15000,
     "ratingAvg": 4.8,
@@ -57,11 +57,11 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=4",
-    "title": "Foodly",
+    "image": "https://i.ibb.co.com/Cs9mR43c/demo-app-2.webp",
+    "title": "Travelio",
     "companyName": "EatSmart Co.",
     "id": 4,
-    "description": "Discover nearby restaurants, order online, and enjoy your favorite meals delivered fast.",
+    "description": "Foodly is a comprehensive food delivery and discovery app that brings the best restaurants and dishes directly to your fingertips. Browse detailed menus, read real customer reviews, and discover new local eateries based on your preferences. With real-time tracking, secure payments, and personalized recommendations, Foodly ensures that every meal you order is a delightful experience. Whether you are craving a quick snack, a gourmet meal, or exploring international cuisines, Foodly provides convenience, variety, and reliability, making food ordering simple and enjoyable.",
     "size": 60,
     "reviews": 18000,
     "ratingAvg": 4.5,
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=5",
+    "image": "https://i.ibb.co.com/DHMzYs1Q/demo-app-3.webp",
     "title": "Travelio",
     "companyName": "WanderTech",
     "id": 5,
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=6",
+    "image": "https://i.ibb.co.com/XkLYLLwJ/demo-app-4.webp",
     "title": "FinancePro",
     "companyName": "SmartWealth Inc.",
     "id": 6,
@@ -114,7 +114,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=7",
+    "image": "https://i.ibb.co.com/9H6Wr25p/demo-app-5.webp",
     "title": "LangGo",
     "companyName": "Speakly Labs",
     "id": 7,
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=8",
+    "image": "https://i.ibb.co.com/nqmTy4LX/demo-app-6.webp",
     "title": "ZenSpace",
     "companyName": "Calmify",
     "id": 8,
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=9",
+    "image": "https://i.ibb.co.com/XkLYLLwJ/demo-app-4.webp",
     "title": "TaskHero",
     "companyName": "FocusFlow",
     "id": 9,
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=10",
+    "image": "https://i.ibb.co.com/9H6Wr25p/demo-app-5.webp",
     "title": "StreamHub",
     "companyName": "MediaPulse",
     "id": 10,
@@ -190,7 +190,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=11",
+    "image": "https://i.ibb.co.com/gMttMdMn/27a45c5eada728c0bc1f0d735ff1f9e5.jpg",
     "title": "EduSmart",
     "companyName": "Learnify",
     "id": 11,
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=12",
+    "image": "https://i.ibb.co.com/XkLYLLwJ/demo-app-4.webp",
     "title": "ShopLink",
     "companyName": "ClickCart",
     "id": 12,
@@ -228,7 +228,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=13",
+    "image": "https://i.ibb.co.com/nqmTy4LX/demo-app-6.webp",
     "title": "CookMate",
     "companyName": "TasteLab",
     "id": 13,
@@ -247,7 +247,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=14",
+    "image": "https://i.ibb.co.com/nqmTy4LX/demo-app-6.webp",
     "title": "Weatherly",
     "companyName": "SkyCast",
     "id": 14,
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "image": "https://picsum.photos/200/300?random=15",
+    "image": "https://i.ibb.co.com/XkLYLLwJ/demo-app-4.webp",
     "title": "MusicVibe",
     "companyName": "BeatFlow Studios",
     "id": 15,
