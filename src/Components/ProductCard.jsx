@@ -1,11 +1,12 @@
 import React from "react";
 import download from "../assets/icon-downloads.png";
 import rating from "../assets/icon-ratings.png";
+import { Link } from "react-router";
 
 const ProductCard = ({ product }) => {
-  const { title, image, ratingAvg, downloads } = product;
+  const { title, image, ratingAvg, downloads, id } = product;
   return (
-    <div>
+    <Link to={`/app/${id}`}>
       <div className="card bg-base-100 shadow-sm hover:scale-105 transition ease-in-out">
         <figure className="h-48 overflow-hidden">
           <img className="w-full object-cover" src={image} alt="Shoes" />
@@ -26,7 +27,7 @@ const ProductCard = ({ product }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

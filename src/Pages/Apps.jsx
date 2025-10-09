@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import useProducts from "../Hooks/useProducts";
 import ProductCard from "../Components/ProductCard";
+import { Link } from "react-router";
 
 const Apps = () => {
   const { products } = useProducts();
+  const [search, setSearch] = useState("");
+  const term = search.trim().toLocaleLowerCase();
+  const searchProducts = term
+    ? products.filter((product) =>
+        product.title.toLocaleLowerCase().includes(term)
+      )
+    : products;
   return (
     <div>
       <div className="text-center mt-16">
@@ -16,7 +24,7 @@ const Apps = () => {
       </div>
       <div className="max-w-screen-xl mx-auto w-full px-4  lg:px-12 mt-10">
         <div className="flex items-center justify-between">
-          <h2> {`(${products.length})`} Apps Found</h2>
+          <h2> ({searchProducts.length}) Apps Found</h2>
           <label className="input">
             <svg
               className="h-[1em] opacity-50"
@@ -34,15 +42,27 @@ const Apps = () => {
                 <path d="m21 21-4.3-4.3"></path>
               </g>
             </svg>
-            <input type="search" required placeholder="search Apps" />
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              type="search"
+              required
+              placeholder="search Apps"
+            />
           </label>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto w-full px-4 py-10 lg:px-12">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product}></ProductCard>
-        ))}
-      </div>
+      {searchProducts.length === 0 ? (
+        <p className="text-center text-gray-500 mt-6 text-lg font-medium">
+          No App Found 😔
+        </p>
+      ) : (
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 max-w-screen-xl mx-auto w-full px-4 py-10 lg:px-12">
+          {searchProducts.map((product) => (
+            <ProductCard key={product.id} product={product}></ProductCard>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
