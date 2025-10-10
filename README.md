@@ -1,3 +1,15 @@
+App Name: AppNest
+
+Description: We build digital solutions that make your world easier and smarter. Transforming everyday challenges into seamless digital experiences.
+Simplifying life, one app at a time. Apps that don’t just work — they wow. Digital craftsmanship built for real-world needs. We don’t just create apps, we create experiences.Every tap, every swipe — designed for simplicity. Code with purpose. Design with passion.Powering your vision through technology. Experience innovation that fits in your hand. Creativity. Innovation. Simplicity. Smarter apps for a smarter future.
+
+Technologies: Frontend Framework: React.js Programming Language: JavaScript (ES6+)  Markup Language: HTML5 Styling Language:  CSS3 Tailwind CSS
+DaisyUI React Router Recharts React Toastify
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
